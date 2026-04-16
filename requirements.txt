@@ -1,0 +1,36 @@
+# ==========================================
+# Raga Recognition Project Requirements
+# ==========================================
+
+# 1. Core Math & Data Handling
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# 2. Audio Signal Processing
+librosa>=0.10.0
+soundfile>=0.12.1     # Required by librosa to read/write audio files
+
+# 3. Machine Learning (Baselines & Deep Learning)
+scikit-learn>=1.2.0   # For Random Forests, SVMs, and data splitting
+torch>=2.0.0          # PyTorch for building Neural Networks (CNNs/LSTMs)
+torchaudio>=2.0.0     # PyTorch's audio extension 
+
+# 4. Visualization & Experimentation
+matplotlib>=3.7.0     # For plotting spectrograms and pitch contours
+seaborn>=0.12.0       # For pretty histograms and confusion matrices
+jupyter>=1.0.0        # To run your .ipynb experimentation notebooks
+
+# ==========================================
+# Optional / Advanced Installations
+# ==========================================
+
+# Note: Source separation libraries often have strict dependency requirements. 
+# It is sometimes best to install these separately or in their own environment.
+# Uncomment the line below if you want to try installing Spleeter directly.
+# spleeter>=2.3.0
+
+# Note: Essentia is incredibly powerful for pitch tracking but can be tricky to install 
+# depending on your operating system (Windows/Mac/Linux). 
+# Try uncommenting below, but if it fails, check their official documentation.
+# essentia>=2.1b6.dev
