@@ -15,6 +15,7 @@ soundfile>=0.12.1     # Required by librosa to read/write audio files
 scikit-learn>=1.2.0   # For Random Forests, SVMs, and data splitting
 torch>=2.0.0          # PyTorch for building Neural Networks (CNNs/LSTMs)
 torchaudio>=2.0.0     # PyTorch's audio extension 
+sounddevice>=0.4.0    # For live audio recording and playback
 
 # 4. Visualization & Experimentation
 matplotlib>=3.7.0     # For plotting spectrograms and pitch contours
